@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:4321',
+  baseURL: 'https://passwrd-resetb.onrender.com',
 })
 
 export const login = ({ email, password }) =>
