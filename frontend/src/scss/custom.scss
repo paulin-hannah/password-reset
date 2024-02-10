@@ -1,0 +1,10 @@
+// Custom variables
+$primary: #c2ba46;
+
+// import the function & variables
+@import '../../node_modules/bootstrap/scss/_functions';
+@import '../../node_modules/bootstrap/scss/_variables';
+
+// import bootstrap class
+@import '../../node_modules/bootstrap/scss/_list-group.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap';
